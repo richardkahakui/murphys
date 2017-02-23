@@ -1,0 +1,23 @@
+.padding-font-weight {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.grad-background {
+  background: url('http://murphyshawaii.com/media/2014/04/murphys-front.jpg') no-repeat center center fixed;
+  color: white;
+  background-size: cover;
+  height: 500px;
+}
+
+
+.footer-background {
+  background-color: #004030;
+  color: white;
+  height: 200px;
+  font-size: 13px;
+}
+.colorblocktop {
+  padding-top: 20px;
+}
