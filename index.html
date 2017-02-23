@@ -13,79 +13,105 @@
 
 <div class="ui borderless topmenu menu">
   <img class="ui image item" src="http://murphyshawaii.com/media/2014/04/murphyshawaii.png">
-  <a class="ui right item">Home</a>
-  <div class="ui simple dropdown fitted item">
-    <div class="text">About Us</div>
-    <i class="dropdown icon"></i>
-    <div class="menu">
-      <div class="item">Getting Here/Parking</div>
-      <div class="item">Catering and Private Events</div>
-      <div class="item">Upcoming Events</div>
-    </div>
-  </div>
-  <a class="ui item">St. Patrick's Day</a>
-  <div class="ui simple dropdown fitted item">
-    <div class="text">About Us</div>
-    <i class="dropdown icon"></i>
-    <div class="menu">
-      <div class="item">Weekly Specials</div>
-      <div class="item">Lunch Menu</div>
-      <div class="item">Dinner Menu</div>
-      <div class="item">Desserts</div>
-    </div>
-  </div>
-  <a class="ui item">Bar</a>
-  <a class="ui item"><i class="search icon"></i></a>
 
+  <a class="ui right item">Home</a>
+
+  <div class="ui simple dropdown item">
+    <div class="text">About Us</div>
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <div class="item">Where we at</div>
+    </div>
+  </div>
+
+  <a class="ui item">St. Patrick's Day</a>
+
+  <div class="ui simple dropdown item">
+    <div class="text">Menus</div>
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <div class="item">Lunch items</div>
+    </div>
+  </div>
+  <a class="ui item"><i class="search icon"></i></a>
 </div>
 
+
 <div class="grad-background">
-  <div class="ui two column middle aligned grid container colorblocktop row">
+  <div class="ui two column middle aligned grid container colorblocktop">
     <div class="empty row"></div>
     <div class="empty row"></div>
     <div class="empty row"></div>
     <div class="empty row"></div>
     <div class="empty row"></div>
 
-    <div class="middle aligned column">
-        <img class="ui image item" src="http://murphyshawaii.com/media/2014/04/murphyshawaiilogo.png">
-      </div>
-    <div class="padded middle center aligned column">
-      <div class="padding-font-weight">
-        <p>A traditional downtown saloon and eatery located in the Honolulu Financial District, just one block off the waterfront, Murphy's has been a haven for mariners, businessmen and locals since 1891.</p>
+    <div class="column">
+      <img class="ui image item" src="http://murphyshawaii.com/media/2014/04/murphyshawaiilogo.png">
+    </div>
+    <div class="column">
+      <div class="ui item">
+      A traditional downtown saloon and eatery located in the Honolulu Financial District, just one block off the waterfront, Murphy's has been a ahven for mariners businessmen and locals since 1891.
       </div>
     </div>
   </div>
 </div>
 
 <div class="footer-background">
-  <div class="ui three column grid container colorblocktop">
-    <div class="row">
-      <div class="column">
-        Lunch
-        <hr/>
-        <p></p>
-        <p>Monday - Friday: 11:00am - 2:30pm</p>
-        <p>Saturday - Sunday: Not open for lunch</p>
+  <div class="ui three column grid container">
+    <div class="column">
+      Lunch
+    <hr/>
+      <p></p>
+      <div class="item">
+        Monday - Friday: 11:00am - 2:30pm
+        Saturday - Sunday: Not open for lunch
       </div>
-      <div class="column">
-        Bar
-        <hr/>
-        <p></p>
-        <p>Monday - Friday from 11:00am</p>
-        <p>Saturday - Sunday from 4:00pm</p>
-      </div>
-      <div class="column">
-        Dinner
-        <hr/>
-        <p></p>
-        <p>Monday - Friday: 5:30pm - 10:00pm</p>
-        <p>Saturday - Sunday: 5:00pm - 9:00pm</p>
+    </div>
+
+    <div class="column">
+    Bar
+    <hr/>
+    <p></p>
+    <div class="item">
+      Monday - Friday from 11:00am
+      Saturday - Sunday from 4:00pm
+    </div>
+  </div>
+
+    <div class="column">
+      Dinner
+      <hr/>
+      <p></p>
+      <div class="item">
+        Monday - Friday: 5:30pm - 10:00pm
+        Saturday - Sunday: 5:00pm - 9:00pm
       </div>
     </div>
   </div>
 </div>
 
+
+
+
+
+
+
+
+
+<script>
+  //dropdown
+  $('.ui.dropdown')
+      .dropdown()
+  ;
+  //dimmer
+  $('.ui.dimmable')
+      .dimmer('show')
+  ;
+  $('.ui.dimmable .dimmer')
+      .dimmer('show')
+  ;
+
+</script>
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
